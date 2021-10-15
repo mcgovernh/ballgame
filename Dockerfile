@@ -13,4 +13,4 @@ COPY . .
 EXPOSE 5000
 
 # run the command
-CMD ["java", "./helloworld.java"]
+CMD ["java", "./helloworld.jar"]
