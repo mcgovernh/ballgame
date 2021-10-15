@@ -1,5 +1,5 @@
-FROM openjdk:11
-COPY . /usr/src/myapp
-WORKDIR /usr/src/myapp
-RUN javac helloworld.java
-CMD ["java", "helloworld"]
+FROM java:8
+WORKDIR /
+ADD BallGame.jar BallGame.jar
+EXPOSE 8080
+CMD java - jar BallGame.jar
