@@ -13,4 +13,4 @@ COPY . .
 EXPOSE 5000
 
 # run the command
-CMD ["java", "./BallGame.jar"]
+CMD ["java", "./helloworld.java"]
